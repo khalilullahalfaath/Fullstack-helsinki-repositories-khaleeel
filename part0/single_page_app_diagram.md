@@ -1,4 +1,6 @@
-sequenceDiagram
+
+```mermaid
+  sequenceDiagram
   participant browser
   participant server
 
@@ -22,3 +24,4 @@ sequenceDiagram
   activate server
   server->>browser: [{content: "XD", date: "2023-08-24T20:30:38.837Z"},…]
   deactivate server
+```
